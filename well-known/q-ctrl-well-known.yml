@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of Q-CTRL hosts
+note: >-
+  No /.well-known/ discovery documents were served. accounts.q-ctrl.com sits
+  behind a Vercel security checkpoint (429 challenge, not a real OIDC issuer);
+  no security.txt, OIDC, or api-catalog was found. Empty is a valid result.
+hosts:
+- host: https://q-ctrl.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+- host: https://api.q-ctrl.com
+  documents:
+  - {path: /.well-known/openid-configuration, status: 404}
+- host: https://accounts.q-ctrl.com
+  documents:
+  - {path: /.well-known/openid-configuration, status: 429, note: vercel-security-checkpoint}
+  - {path: /.well-known/oauth-authorization-server, status: 429, note: vercel-security-checkpoint}

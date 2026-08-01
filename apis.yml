@@ -1,8 +1,28 @@
 aid: q-ctrl
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/q-ctrl.png
 name: Q Ctrl
-description: Q Ctrl is a company surfaced as a portfolio company of dcvc, sierra-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Q-CTRL builds infrastructure software to power the quantum future, delivering
+  AI-driven quantum control, error-suppression, and performance-management tools
+  that span quantum computing and quantum sensing. Its products — Boulder Opal
+  (hardware design and control), Fire Opal (quantum error suppression), Black
+  Opal (education), and Ironstone Opal (GPS-free quantum navigation) — are
+  consumed primarily through official Python client libraries that authenticate
+  against the Q-CTRL account service and call a hosted cloud GraphQL API at
+  api.q-ctrl.com. Q-CTRL serves enterprise, defense, aerospace, and research
+  customers and is ISO/IEC 27001:2022 certified.
 url: https://raw.githubusercontent.com/api-evangelist/q-ctrl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +33,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Quantum Computing
+- Quantum Control
+- Quantum Sensing
+- Error Suppression
+- Developer Tools
+- SDK
+- GraphQL API
+apis:
+- name: Q-CTRL Cloud API
+  description: >-
+    Hosted GraphQL API behind the Q-CTRL Boulder Opal and Fire Opal Python
+    clients. Not published as a public OpenAPI/REST spec; accessed via the
+    official SDKs with an account-issued API key.
+  humanURL: https://docs.q-ctrl.com/
+  baseURL: https://api.q-ctrl.com/graphql
+  properties:
+  - type: GraphQL
+    url: https://api.q-ctrl.com/graphql
+  - type: Documentation
+    url: https://docs.q-ctrl.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +64,52 @@ maintainers:
 common:
 - type: Website
   url: https://q-ctrl.com/
+- type: DeveloperPortal
+  url: https://docs.q-ctrl.com/
+- type: Documentation
+  url: https://docs.q-ctrl.com/
+- type: GettingStarted
+  url: https://docs.q-ctrl.com/boulder-opal/get-started
+- type: GitHubOrganization
+  url: https://github.com/qctrl
+- type: SignUp
+  url: https://accounts.q-ctrl.com/signup
+- type: Blog
+  url: https://q-ctrl.com/blog
+- type: Support
+  url: https://q-ctrl.com/contact
+- type: TermsOfService
+  url: https://q-ctrl.com/terms
+- type: PrivacyPolicy
+  url: https://q-ctrl.com/privacy
+- type: StatusPage
+  url: https://status.q-ctrl.com/
+- type: Security
+  url: https://q-ctrl.com/security
+- type: Compliance
+  url: https://q-ctrl.com/security
+- type: Packages
+  url: packages/q-ctrl-packages.yml
+- type: SDKs
+  url: packages/q-ctrl-packages.yml
+- type: Authentication
+  url: authentication/q-ctrl-authentication.yml
+- type: Lifecycle
+  url: lifecycle/q-ctrl-lifecycle.yml
+- type: ChangeLog
+  url: changelog/q-ctrl-changelog.yml
+- type: LLMsTxt
+  url: llms/q-ctrl-llms.txt
+- type: DomainSecurity
+  url: security/q-ctrl-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/q-ctrl-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/q-ctrl-trust-center.yml
+- type: WellKnown
+  url: well-known/q-ctrl-well-known.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 9
+  pass: local-v1

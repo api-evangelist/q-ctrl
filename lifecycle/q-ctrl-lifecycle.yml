@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org / https://status.q-ctrl.com / https://q-ctrl.com/security
+versioning:
+  scheme: semver
+  note: >-
+    Client products are versioned as semantic-versioned PyPI packages
+    (e.g. boulder-opal 5.x, fire-opal 11.x). Major bumps signal breaking changes.
+  current:
+    boulder-opal: 5.0.7
+    fire-opal: 11.2.0
+status_page: https://status.q-ctrl.com/
+status_page_provider: Atlassian Statuspage
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: No formal RFC 8594 Sunset/Deprecation header policy was found published.
+deprecated_operations: []

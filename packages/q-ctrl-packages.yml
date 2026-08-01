@@ -1,0 +1,53 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org / https://www.npmjs.com / https://github.com/qctrl
+packages:
+- language: python
+  registry: pypi
+  name: boulder-opal
+  url: https://pypi.org/project/boulder-opal/
+  install: pip install boulder-opal
+  official: true
+  description: Python client for Q-CTRL's Boulder Opal quantum hardware design and control toolkit.
+- language: python
+  registry: pypi
+  name: fire-opal
+  url: https://pypi.org/project/fire-opal/
+  install: pip install fire-opal
+  official: true
+  description: Python client for Q-CTRL's Fire Opal quantum error-suppression product.
+- language: python
+  registry: pypi
+  name: qctrl-visualizer
+  url: https://pypi.org/project/qctrl-visualizer/
+  install: pip install qctrl-visualizer
+  official: true
+  description: Q-CTRL Visualizer for plotting quantum controls, pulses, and Bloch-sphere visualizations.
+- language: python
+  registry: pypi
+  name: qctrl-open-controls
+  url: https://pypi.org/project/qctrl-open-controls/
+  install: pip install qctrl-open-controls
+  official: true
+  description: Open-source library of published quantum control solutions (Q-CTRL Open Controls).
+- language: python
+  registry: pypi
+  name: qctrl-commons
+  url: https://pypi.org/project/qctrl-commons/
+  install: pip install qctrl-commons
+  official: true
+  description: Shared foundation package used by Q-CTRL client libraries.
+- language: python
+  registry: pypi
+  name: qctrl-toolkit
+  url: https://pypi.org/project/qctrl-toolkit/
+  install: pip install qctrl-toolkit
+  official: true
+  description: Toolkit of higher-level building blocks for Q-CTRL products.
+- language: javascript
+  registry: npm
+  name: "@qctrl/visualizer"
+  url: https://www.npmjs.com/package/@qctrl/visualizer
+  install: npm install @qctrl/visualizer
+  official: true
+  description: JavaScript package for animated 3D Bloch-sphere quantum visualizations.

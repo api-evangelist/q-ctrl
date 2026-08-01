@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.q-ctrl.com/boulder-opal/get-started
+note: >-
+  Q-CTRL does not publish a public OpenAPI/Swagger spec. The cloud is reached
+  through the official Python clients (boulder-opal, fire-opal), which
+  authenticate the caller against the Q-CTRL account service and then call the
+  hosted GraphQL API at https://api.q-ctrl.com/graphql.
+summary:
+  types: [apiKey]
+  api_key_in: [account-issued token]
+  oauth2_flows: []
+schemes:
+- name: qctrl-api-key
+  type: apiKey
+  description: >-
+    An account-issued API key (managed at https://accounts.q-ctrl.com) is used
+    by the Q-CTRL Python clients to authenticate. Once authenticated, requests
+    are made to the Q-CTRL cloud GraphQL endpoint.
+  managed_at: https://accounts.q-ctrl.com/
+  sources: [docs.q-ctrl.com]
+endpoints:
+  graphql: https://api.q-ctrl.com/graphql

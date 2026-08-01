@@ -1,0 +1,14 @@
+{
+  "repo": "q-ctrl",
+  "feeds": [
+    {
+      "source": "https://accounts.q-ctrl.com/signup",
+      "feed_url": "https://accounts.q-ctrl.com/signup",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

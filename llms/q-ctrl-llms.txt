@@ -1,0 +1,30 @@
+# Q-CTRL
+
+> Q-CTRL builds infrastructure software to power the quantum future — AI-driven quantum control, error suppression, and performance-management tools spanning quantum computing and quantum sensing. Products are consumed through official Python clients that call the Q-CTRL cloud (a hosted GraphQL API); there is no public REST/OpenAPI surface.
+
+## Products
+- [Boulder Opal](https://docs.q-ctrl.com/boulder-opal/get-started): Python toolkit to automate and improve the performance of quantum computing and sensing hardware.
+- [Fire Opal](https://docs.q-ctrl.com/fire-opal/get-started): Error-suppression software that improves quantum-algorithm results.
+- [Black Opal](https://q-ctrl.com/black-opal): Interactive quantum-education platform.
+- [Ironstone Opal](https://q-ctrl.com/ironstone-opal): GPS-free quantum navigation system.
+
+## SDKs & Packages
+- [boulder-opal (PyPI)](https://pypi.org/project/boulder-opal/): pip install boulder-opal
+- [fire-opal (PyPI)](https://pypi.org/project/fire-opal/): pip install fire-opal
+- [qctrl-visualizer (PyPI)](https://pypi.org/project/qctrl-visualizer/): pip install qctrl-visualizer
+- [qctrl-open-controls (PyPI)](https://pypi.org/project/qctrl-open-controls/): pip install qctrl-open-controls
+- [@qctrl/visualizer (npm)](https://www.npmjs.com/package/@qctrl/visualizer): npm install @qctrl/visualizer
+
+## API & Docs
+- [Documentation](https://docs.q-ctrl.com/)
+- [GitHub organization](https://github.com/qctrl)
+- [Integrations](https://q-ctrl.com/integrations)
+- Cloud GraphQL endpoint: https://api.q-ctrl.com/graphql (account-issued API-key auth)
+
+## Account & Operations
+- [Sign up](https://accounts.q-ctrl.com/signup)
+- [Status page](https://status.q-ctrl.com/)
+- [Security & compliance](https://q-ctrl.com/security) — ISO/IEC 27001:2022, Cyber Essentials, NIST SP 800-171
+- [Blog](https://q-ctrl.com/blog)
+- [Terms](https://q-ctrl.com/terms) · [Privacy](https://q-ctrl.com/privacy)
+- Security contact: security@q-ctrl.com
