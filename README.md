@@ -64,6 +64,97 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Q Ctrl is a company surfaced as a portfolio company of dcvc, sierra-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Q-CTRL builds infrastructure software to power the quantum future, delivering AI-driven quantum control, error-suppression, and performance-management tools that span quantum computing and quantum sensing. Its products — Boulder Opal (hardware design and control), Fire Opal (quantum error suppression), Black Opal (education), and Ironstone Opal (GPS-free quantum navigation) — are consumed primarily through official Python client libraries that authenticate against the Q-CTRL account service and call a hosted cloud GraphQL API at api.q-ctrl.com. Q-CTRL serves enterprise, defense, aerospace, and research customers and is ISO/IEC 27001:2022 certified.
 
-Backed by: dcvc, sierra-ventures — https://q-ctrl.com/
+**Areas:** Company · Quantum Computing · Quantum Control · Quantum Sensing · Error Suppression · Developer Tools · SDK · GraphQL API
+
+## Q Ctrl on APIs.io
+
+Everything profiled for Q Ctrl is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/q-ctrl/](https://apis.io/providers/q-ctrl/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Q-CTRL Cloud API](https://apis.io/apis/q-ctrl/q-ctrl-cloud-api/) — Hosted GraphQL API behind the Q-CTRL Boulder Opal and Fire Opal Python clients. Not published as a public OpenAPI/REST spec; accessed via the official SDKs…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Q Ctrl Authentication](https://apis.io/security/q-ctrl/q-ctrl-authentication/)
+- [Q Ctrl Domain Security](https://apis.io/security/q-ctrl/q-ctrl-domain-security/)
+- [Q Ctrl Trust Center](https://apis.io/security/q-ctrl/q-ctrl-trust-center/)
+- [Q Ctrl Vulnerability Disclosure](https://apis.io/security/q-ctrl/q-ctrl-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://q-ctrl.com/)
+- [Documentation](https://docs.q-ctrl.com/)
+- [Getting started](https://docs.q-ctrl.com/boulder-opal/get-started)
+- [Sign up](https://accounts.q-ctrl.com/signup)
+- [Support](https://q-ctrl.com/contact)
+- [Blog](https://q-ctrl.com/blog)
+- [Security](https://q-ctrl.com/security)
+- [Compliance](https://q-ctrl.com/security)
+- [Terms of service](https://q-ctrl.com/terms)
+- [Privacy policy](https://q-ctrl.com/privacy)
+- [GitHub](https://github.com/qctrl)
+- [Status](https://status.q-ctrl.com/)
+
+## API Evangelist rating
+
+**Kin Score 32.4** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 44.7 |
+| Developer ergonomics | 41.7 |
+| Access clarity | 43.4 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/q-ctrl/](https://apis.io/providers/q-ctrl/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Q Ctrl: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/q-ctrl/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
